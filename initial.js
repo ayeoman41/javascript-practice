@@ -18,5 +18,10 @@ function add7(num) {
   }
  
   console.log(add7(5))
-  
+
+function multiply(product) {
+    return product * 5
+}
+
+console.log(multiply(5))
  
