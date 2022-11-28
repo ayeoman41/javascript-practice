@@ -31,3 +31,9 @@ function capitalize(string) {
 }
 
 console.log(capitalize('awesome'));
+console.log(capitalize('tHis'));
+
+function lastLetter(end){
+    return end.substr(-1)
+}
+console.log(lastLetter('Ashaad'));
