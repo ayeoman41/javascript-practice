@@ -24,4 +24,10 @@ function multiply(product) {
 }
 
 console.log(multiply(5))
- 
+
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+
+}
+
+console.log(capitalize('awesome'));
